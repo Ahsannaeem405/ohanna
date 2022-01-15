@@ -1,0 +1,140 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 35px;
+  /* min-width: 1440px; */
+  width: 100%;
+  flex: 1;
+  /* max-width: 1440px; */
+}
+
+.sidebar-icon {
+  cursor: pointer;
+  margin: 40px 0px 40px 0px;
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+  box-shadow: 0px 0px 8px rgba(37, 25, 74, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu-icon {
+  width: 100%;
+}
+
+.menu-name {
+  margin: unset;
+}
+
+.left {
+  display: flex;
+  align-content: center;
+  height: 100%;
+}
+
+.dropdown-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 0px 40px 20px;
+}
+.dropdown-button .icon span{
+  margin: 0px 15px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: Montserrat;
+  line-height: 19.5px;
+  color: #25194A
+  ;
+}
+
+.dropdown-button.ant-btn {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  width: 330px;
+  height: 40px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-button_name {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+
+  color: #25194a;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.download-button.ant-btn {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  height: 30px;
+  width: 214px;
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #25194a;
+}
+.share-button.ant-btn {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  height: 30px;
+  width: 214px;
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #25194a;
+}
+
+.ant-btn:hover {
+  border-color: #25194a;
+}
+
+.icon svg text,
+.icon svg path {
+  fill: #25194a !important;
+}
+
+.welcome-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #141414;
+  margin: auto;
+}

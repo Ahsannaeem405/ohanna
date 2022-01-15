@@ -1,0 +1,32 @@
+.solved-issue{
+    width: 100%;
+    padding: 0px 60px;
+    background-color: #E5E5E5;
+}
+.solved-issue header{
+    
+}
+.showIssueCard{
+    background-color: white;
+    border-radius: 8px 8px 0px 0px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    width: 100%;
+}
+.heading-bar{
+    height: 60px;
+    background-color: #25194A;
+    border-radius: 8px 8px 0px 0px;
+    color: white;
+    padding: 15px 43px;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+.showIssueCard body{
+    height: 100%;
+}

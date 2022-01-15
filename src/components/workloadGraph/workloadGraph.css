@@ -1,0 +1,71 @@
+
+.workload-graph-details{
+    padding: 30px 15px 30px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.workload-items{
+    display: flex;
+    flex-direction: column;
+}
+.workload-items .ant-btn{
+    width: 72px;
+    height: 14px;
+    font-family: Montserrat;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 10px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    padding: 0px !important;
+    border: none !important;
+    border-radius: 0px !important;
+}
+.workload-items .checked{
+    background-color: #13A32133;
+    color: #13A321;
+}
+.workload-items .delivered{
+    background-color: #01498433;
+    color: #014984;
+}
+.workload-items .reccieved{
+    background-color: #E87D0033;
+    color: #E87D00;
+}
+.workload-items .ant-btn:nth-child(2){
+    margin: 8px 0;
+}
+.workload-addfile .ant-btn{
+    width: 105px;
+    height: 25px;
+    background-color: #0184EC1A;
+    color:  #0184EC;
+    padding: 0px;
+    border-radius: 0px;
+    border: none;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+}
+.workload-graph .graph{
+    width: 100%;
+    display: flex;
+}
+.workload-graph .graph canvas{
+    width: 600px;
+}
+.workload-graph .graph h3{
+ writing-mode: vertical-rl;
+ text-orientation: mixed;
+ transform: rotate(-180deg);
+ padding: 130px 0px;
+ margin: 0px;
+}
+
+    

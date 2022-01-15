@@ -1,0 +1,43 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 12
+      docker: 19
+    commands:
+      - node -v
+      - yarn -v
+      - docker --version
+  pre_build:
+    commands:
+      - echo Logging in to Amazon ECR...
+      - aws --version
+      - region=us-east-1
+      - env=${ENVIRONMENT} 
+      - echo ${DOCKER_PASS} | docker login --username ${DOCKER_USER} --password-stdin
+      - $(aws ecr get-login --region $region --no-include-email)
+      - REPOSITORY_URI_API=693522365576.dkr.ecr.us-east-1.amazonaws.com/ohanna-ai-admin-panel
+      - COMMIT_HASH=$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
+      - IMAGE_TAG=${COMMIT_HASH:=latest}
+  build:
+    commands:
+      - pwd
+      - echo Build started on `date`
+      - echo Building Docker image.
+      - docker build -t ohanna-ai-admin-panel-$env .
+      - docker tag ohanna-ai-admin-panel-$env:latest $REPOSITORY_URI_API:$IMAGE_TAG
+      - docker tag ohanna-ai-admin-panel-$env:latest $REPOSITORY_URI_API:latest
+      - ls -lah
+
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - echo Pushing the Docker images...
+      - docker push $REPOSITORY_URI_API:$IMAGE_TAG
+      - docker push $REPOSITORY_URI_API:latest
+      - sed -i 's@IMAGE_TAG@'"$IMAGE_TAG"'@' restart_admin_panel.sh
+artifacts:
+    files: 
+      - restart_admin_panel.sh
+      - appspec.yml

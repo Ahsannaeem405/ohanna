@@ -1,0 +1,281 @@
+.selection-box-operations{
+  margin:  56px auto 30px 43px;
+}
+.selection-box-operations h2{
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #000;
+}
+.selection-box-operations .select-group-btn{
+  display: flex;
+  margin-left: 18px;
+  width: 327px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+  padding: 5px;
+}
+.selection-box-operations .select-group-btn .ant-btn{
+  height: 100%;
+  border: none;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #1d1d1d;
+}
+.selection-box-operations .select-group-btn .ant-btn:first-child{
+  border-right: 1px solid #D7D4D4CC
+}
+.selection-box-operations .select-group-btn .ant-btn span{
+  padding-right: 25px;
+}
+.select-operation-group{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #141414;
+}
+.operation-management {
+  /* display: flex; */
+  flex: 1;
+  background: #53226D0A;
+  margin: 0px 60px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+
+.select-group {
+  display: flex;
+  margin: 20px 0;
+  justify-content: center;
+  align-items: center;
+  gap: 33px;
+}
+
+.select-group_title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  color: #141414;
+}
+
+.ant-btn.ant-dropdown-trigger {
+  height: 40px;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.PO-numbers-table .ant-card-body{
+  padding: 0px !important;
+}
+.PO-numbers-table .ant-card {
+  margin: 0 17px !important;
+}
+.PO-numbers-table .ant-table-thead{
+  border-radius: 10px;
+  /* background-color: #25194A; */
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.PO-numbers-table .ant-table-thead th:first-child{
+  border-top-left-radius: 8px !important;
+}
+.PO-numbers-table .ant-table-thead th:last-child{
+  border-top-right-radius: 8px !important;
+}
+.PO-numbers-table .ant-table-pagination.ant-pagination {
+  display: none;
+}
+.PO-numbers-table .ant-table-row{
+  height: 63px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.workload .ant-card{
+    margin: 16px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+}
+/* .PO-numbers-table .ant-table-cell{
+  background-color: transparent !important;
+} */
+
+.operation-table .ant-card{
+  margin: 10px 15px;
+}
+.operation-table .ant-card-body{
+  padding: 0px !important;
+  height: 350px !important;
+  overflow-y: auto;
+}
+.operation-table .ant-card-body::-webkit-scrollbar {
+  display: none;
+}
+.operation-table table{
+  width: 100%;
+}
+
+.operation-table td, .operation-table th {
+  text-align: left;
+  padding: 10px 30px;
+  font-family: 'Montserrat';
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  height: 40px;
+  
+}
+.operation-table th{
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+  background-color: #25194A;
+}
+.operation-table th:first-child{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.operation-table th:last-child{
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.operation-table td{
+  font-size: 14px;
+  line-height: 17px;
+  color: #00000099;
+}
+.operation-table td:nth-child(2){
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.operation-table td:last-child{
+  text-align: end;
+}
+.operation-table tr svg{
+  font-size: 22px;
+}
+.operation-table tr:nth-child(even) {
+  background-color: #fafafa;
+}
+.operation-table tr:hover{
+  background-color: #004C841A;
+}
+.operation-table tr:hover td{
+  color: #004C84 !important;
+}
+.operation-table .note-icon{
+  position: relative;
+}
+.operation-table ul{
+  position: absolute;
+  top:80%;
+  right: 5px;
+  background-color: #fff;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: start;
+  height: 83px;
+  width: 67px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+  z-index: 5;
+}
+.operation-table .note-control{
+  display: none;
+  cursor: pointer;
+}
+.note-icon:hover .note-control{
+  display: block;
+}
+.operation-table ul li{
+  padding: 8px 7px 0px 7px;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  color: #000;
+}
+.operation-table .table-item{
+  position: relative;
+}
+.operation-table .table-item div{
+  position: absolute;
+  height: 130px;
+  width: 134px;
+  background-color: #fff;
+  border-radius: 8px;
+  right: 0px;
+  top: 50%;
+  padding: 7px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+  display: none;
+  color: #000;
+  transition: 0.5s;
+}
+.operation-table .table-item:hover div{
+  display: block;
+}
+/* matric Table */
+.operation-table .ant-card:last-child{
+  width: 453px;
+  margin: 10px auto;
+}
+.matric-table  th:last-child{
+  text-align: end;
+}
+.matric-table  td{
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  color: #000;
+}

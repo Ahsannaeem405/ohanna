@@ -1,0 +1,94 @@
+.personCard{
+    display: flex;
+    height: 158px;
+  align-items: center;
+  padding: 30px 0px 30px 15px;
+}
+.personal-details{
+    margin-left: 20px;
+}
+.personal-details h3{
+    font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: #25194a;
+    margin: 0px;
+    width: 150px;
+}
+.personal-details p{
+    margin: 8px 0px 0px 0px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+.left2-Card{
+    margin-left: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.person-details-card{
+    width: 170px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+
+}
+.list-intrest{
+    background-color: rgba(19, 163, 33, 0.1);
+    color: #13A321;
+}
+.list-training{
+    background-color: rgba(232, 125, 0, 0.1) ;
+    color: #E87D00;
+}
+.right2-Card{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.list-certif{
+    background-color: rgba(1, 132, 236, 0.1);
+    color: #0184EC;
+}
+.perfor-indicator{
+    background-color: rgba(178, 121, 208, 0.06);
+    color: #B2328E;
+}
+.person-plan-cards{
+    margin-left: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.person-plan-card{
+    width: 196px;
+    height: 31px;
+    background-color: #3DBE78;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+
+}

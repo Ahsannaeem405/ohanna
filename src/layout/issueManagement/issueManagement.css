@@ -1,0 +1,168 @@
+.issue-management {
+  /* display: flex; */
+  width: 100%;
+  padding: 0 60px;
+  flex: 1;
+}
+
+.issue-management .columns {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0;
+  width: 100%;
+}
+
+.incidence-rate {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #25194a;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.issue-count {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.issue-count_title{
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Montserrat;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  margin-top: 48px;
+  margin-left: 145px;
+  color: #25194A;
+}
+.issue-count .group-by{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+  line-height: 17px;
+  display: flex;
+}
+.issue-count .select-group{
+margin: 0 20px;
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+}
+.issue-count .select-group ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.issue-count .select-group ul li{
+  padding: 5px 15px;
+  font-size: 12px;
+  font-family: 400;
+  font-family: 'Montserrat', sans-serif;
+  color: #595959;
+  cursor: pointer;
+}
+.issue-count .select-group ul li:hover{
+  background: #25194A;
+  color: white;
+}
+.columns .ant-card-bordered{
+  width: 50%;
+}
+.rate-incid{
+  padding: 0px 45px 20px 45px;
+  /* width: 594px;
+  height: 432px; */
+}
+
+.issue-count-graph{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.issue-count-graph h6{
+  writing-mode: vertical-rl;
+text-orientation: mixed;
+transform: rotate(-180deg);
+font-size: 14px;
+font-weight: 500;
+letter-spacing: 0.02em;
+font-family: "Montserrat";
+margin: 0px 20px 0px 0px;
+}
+
+.post-issue{
+  width: 840px;
+  margin: auto;
+  overflow-y: auto;
+  height: 285px;
+  border-radius: 8px 8px 0px 0px;
+}
+.post-issue::-webkit-scrollbar {
+  display: none;
+}
+.post-issue table{
+  width: 100%;
+  
+}
+.post-issue td, th {
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #FAFAFA;
+}
+.post-issue .ant-card {
+  border-radius: 8px 8px 0px 0px;
+}
+.post-issue .ant-card-body{
+  padding: 0 !important;
+}
+.post-issue tr{
+  height: 48px;
+}
+.post-issue th{
+  height: 48px;
+  background: #25194A;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+.post-issue th:first-child{
+    border-radius: 8px 0px 0px 0px;
+    padding-left: 47px ;
+}
+.post-issue td{
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  color: rgba(0, 0, 0, 0.6);
+}
+.post-issue td:nth-child(even){
+  color: rgba(0, 0, 0, 1);
+}
+.post-issue td:first-child{
+  padding-left: 47px ;
+}
+.post-issue th:last-child{
+  border-radius: 0px 8px 0px 0px;
+}
+.post-issue .ant-select .ant-select-selector{
+  border: none !important;
+  background-color: rgba(0, 0, 0, 0) !important;
+  margin-right: 10px !important;
+  color: #000;
+}
+.post-issue td select:focus-visible{
+  border: none !important;
+  box-shadow: none;
+}

@@ -1,0 +1,53 @@
+.issueHeader{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+.go-back .ant-btn{
+    width: 100px !important;
+    height: 40px !important;
+    border-radius: 8px !important;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25) !important;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    padding: 10px 15px;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    color: #25194A;
+}
+
+
+.Time-set{
+    display: flex !important;
+    align-items: center;
+}
+.Time-set .ant-btn{
+    border-radius: 8px !important;
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    background-image: linear-gradient(to left, #16071F, #25194A);
+    padding: 12px 20px;
+    height: 40px;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15) !important;
+}
+.Time-set .ant-btn span{
+    margin-right: 25px;
+}
+.Time-set .ant-btn:first-child{
+    margin-right: 15px;
+}

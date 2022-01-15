@@ -1,0 +1,155 @@
+.training-management {
+  width: 100%;
+  padding: 10px 60px;
+  flex: 1;
+}
+
+.card {
+  margin-bottom: 30px;
+}
+
+.most-visit_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 32px 20px 32px;
+}
+
+.most-visit_top-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.most-visited-course {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 23px;
+  letter-spacing: 0.4px;
+  color: #252733;
+}
+
+.group-support {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+.group {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #9fa2b4;
+}
+.most-visit-card{
+  margin: 50px 0px 20px 00px;
+  background-color: white;
+  border-width: 1px 0px 1px 1px;
+  border-style: solid;
+  border-color: #DFE0EB;
+  border-top-left-radius: 9px;
+}
+.most-visit_top-left {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  letter-spacing: 0.2px;
+  color: #3751ff;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 30px 18px 32px;
+  border-bottom: 1px solid #ccc;
+}
+
+.item-title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #252733;
+}
+.most-visit_bottom{
+  width: 100%;
+  height: 300px;
+  overflow: auto;
+}
+.most-visit_bottom::-webkit-scrollbar{
+  display: none;
+}
+.most-visit-buttons {
+  display: flex;
+  gap: 14px;
+}
+
+.most-visit-button {
+  background: #29cc97;
+  border-radius: 100px;
+  padding: 5px 12px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: white;
+  height: 24px;
+}
+.most-visit-buttons .mx-btn{
+  width: 143px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.redeem{
+  margin-top: 120px;
+}
+.redeem-title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.redeem-images {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  align-items: center;
+}
+.mx-height-img{
+  height: 183px;
+  max-width: 220px;
+}
+
+.redeem-image {
+  max-width: 220px;
+  max-height: 100px;
+}
+
+.redeem-image-height {
+  height: 160px;
+}

@@ -1,0 +1,32 @@
+.subMenuItem{
+    padding: 0px 30px;
+}
+.subMenuItem a{
+    color: white;
+}
+.subMenuItem a:hover{
+    color: white;
+}
+.sub-link{
+    display: flex;
+    padding: 0 15px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.active-link{
+    padding: 0px 30px;
+}
+.active-link a{
+color: #2EC0F9;
+}
+.sub-link-name{
+    padding: 0 16px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}

@@ -1,0 +1,42 @@
+html {
+  --antd-wave-shadow-color: #25194a;
+  box-sizing: border-box;
+}
+
+.router {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  /* width: 100%; */
+  box-sizing: border-box;
+}
+
+.pages {
+  display: flex;
+  flex-direction: column;
+  /* flex: 1; */
+  min-width: calc(100vh - 300px);
+  /* max-width: calc(100vh - 350px); */
+  /* max-width: calc(100vh - 350px); */
+}
+
+.show-sidebar {
+  /* display: flex; */
+  width: 100%;
+  flex: 1;
+}
+
+.hide {
+  display: none;
+  transition: all 4s;
+}
+
+.ant-btn:hover,
+.ant-btn:focus {
+  color: #25194a;
+  border-color: #25194a;
+}
+
+thead[class*="ant-table-thead"] th {
+  background-color: #25194a !important;
+  color: white !important;
+}

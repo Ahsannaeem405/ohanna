@@ -1,0 +1,91 @@
+.navbar {
+  background-color: #25194a;
+}
+
+.ant-drawer-body {
+  background-color: #25194a;
+  width: 100%;
+}
+
+.ant-menu-title-content {
+  color: #25194a;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.dashboard-text,
+.menu-item.ant-menu-submenu-title,
+.ant-menu-item.ant-menu-item-selected.ant-menu-item-only-child {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  align-items: center;
+  color: #ffffff;
+}
+
+.dashboard-text {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-container.ant-menu.ant-menu-inline.ant-menu-dark {
+  background: #25194a;
+}
+
+.menu-item.ant-menu-item,
+.menu-item.ant-menu-submenu-title {
+  background: #25194a;
+  margin: unset;
+  padding: unset;
+}
+
+.ant-layout-sider-trigger {
+  background: #25194a;
+}
+
+.sider.ant-layout-sider {
+  height: 200vh;
+  background: #25194a;
+}
+
+.ant-menu-title-content {
+  font-weight: normal;
+}
+
+.menu-container.ant-menu.ant-menu-inline.ant-menu-dark {
+  background: #25194a;
+}
+
+.ant-menu-dark .ant-menu-inline.ant-menu-sub {
+  background: #25194a !important;
+}
+
+.image-container {
+  margin-top: 30vh;
+}
+
+.image {
+  width: 300px;
+}
+
+.ant-menu-submenu-title {
+  display: flex;
+  gap: 10px;
+}
+
+.ant-menu.ant-menu-root.ant-menu-vertical.ant-menu-dark.menu-container.ant-menu-inline-collapsed {
+  background: #25194a;
+}
+
+.temp-item {
+  display: none;
+}
