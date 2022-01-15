@@ -89,7 +89,7 @@ const SideBar = ({ iconAndTitleHandle }) => {
         clickedTab={clickedTab}
         icon={ChurnManagementWhiteIcon}
         routerName="workforce"
-        name="Workforce / Churn"
+        name="Churn Management"
       />
 
       <SideBarButton

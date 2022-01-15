@@ -1,96 +1,98 @@
 import React from "react";
 import { Column } from "@ant-design/charts";
+import './customGroupColumn.css';
 
 const CustomGroupColumn = () => {
   const data = [
     {
       name: "monday",
-      day: "Monday",
+      month: "January",
       value: 5,
-      type: "Others",
+      type: "Warehouse Manager",
     },
-
     {
       name: "monday",
-      day: "Monday",
+      month: "February",
+      value: 6,
+      type: "Supervisor",
+    },
+    {
+      name: "monday",
+      month: "February",
       value: 5,
-      type: "Forklift damage",
+      type: "Inventory Controller",
     },
-
     {
-      name: "tuesday",
-      day: "Tuesday",
-      value: 20,
-      type: "Product",
+      name: "monday",
+      month: "February",
+      value: 3,
+      type: "Warehouse Manager",
     },
-
     {
-      name: "wednesday",
-      day: "Wednesday",
+      name: "monday",
+      month: "February",
       value: 5,
-      type: "Inventory accuracy",
+      type: "Material Handler",
     },
-
     {
-      name: "thursday",
-      day: "Thursday",
+      name: "monday",
+      month: "March",
       value: 5,
-      type: "Inventory accuracy",
+      type: "Material Handler",
     },
-
     {
-      name: "thursday",
-      day: "Thursday",
-      value: 14,
-      type: "Device damage",
-    },
-
-    {
-      name: "friday",
-      day: "Friday",
-      value: 5,
-      type: "Others",
-    },
-
-    {
-      name: "friday",
-      day: "Friday",
-      value: 5,
-      type: "Device damage",
-    },
-
-    {
-      name: "friday",
-      day: "Friday",
-      value: 5,
-      type: "Product damage",
-    },
-
-    {
-      name: "saturday",
-      day: "Saturday",
-      value: 23,
-      type: "Inventory accuracy",
-    },
-
-    {
-      name: "sunday",
-      day: "Sunday",
-      value: 5,
-      type: "Inventory accuracy",
-    },
-
-    {
-      name: "sunday",
-      day: "Sunday",
+      name: "monday",
+      month: "April",
       value: 10,
-      type: "Warehouse space",
+      type: "Warehouse Manager",
+    },
+    {
+      name: "monday",
+      month: "April",
+      value: 5,
+      type: "Inventory Controller",
+    },
+    {
+      name: "monday",
+      month: "May",
+      value: 5,
+      type: "Inventory Controller",
+    },
+    {
+      name: "monday",
+      month: "May",
+      value: 10,
+      type: "Associate",
+    },
+    {
+      name: "monday",
+      month: "June",
+      value: 15,
+      type: "Forklift Driver",
+    },
+    {
+      name: "monday",
+      month: "June",
+      value: 10,
+      type: "Material Handler",
+    },
+    {
+      name: "monday",
+      month: "July",
+      value: 5,
+      type: "Inventory Controller",
+    },
+    {
+      name: "monday",
+      month: "July",
+      value: 10,
+      type: "Associate",
     },
   ];
 
   const config = {
     data,
-    xField: "day",
+    xField: "month",
     yField: "value",
     isGroup: true,
     isStack: true,
@@ -98,7 +100,16 @@ const CustomGroupColumn = () => {
     groupField: "name",
   };
 
-  return <Column width={500} {...config} />;
+  return(
+    <>
+    <section className="customgrapcolumn">
+    <section className="customgraphcolumn-heading">Count of employees</section>
+    <Column width={580} {...config} />
+    </section>
+  
+    </>
+  )
+  
 };
 
 export default CustomGroupColumn;

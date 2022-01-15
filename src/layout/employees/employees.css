@@ -1,4 +1,93 @@
+.card-header-container{
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+}
+.employee-card-body{
+  width: 100%;
+  height: 600px;
+  overflow-y: scroll;
+}
+.employee-card-body::-webkit-scrollbar{
+  display: nonef;
+}
+.employee-card-body table{
+  width: 100%;
+}
+
+.employee-card-body td, th {
+  text-align: left;
+  padding: 12px 31px;
+}
+.employee-card-body td{
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  color: #000000CC;
+}
+.employee-card-body tr{
+  height: 40px;
+  background-color: white;
+}
+.employee-card-body tr:nth-child(2n-1) {
+  background-color: #FAFAFA;
+}
+.employee-card-body th{
+  background-color: #FAFAFA !important;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #000 !important;
+}
+.active-btn{
+  width: 74px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #13A3211A;
+  color: #13A321;
+  border-radius: 5px;
+}
+.dactive-btn{
+  width: 74px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #A3132D1A;
+  color: #A3132D;
+  border-radius: 5px;
+}
+.edit-user{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 74px;
+  height: 30px;
+  background-color: #004C841A;
+  color: #004C84;
+  border: none;
+  border-radius: 5px;
+  gap: 6px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+
+
+}
 .employees-listing {
+  margin: 16px 30px ;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
@@ -6,4 +95,56 @@
   line-height: 27px;
   letter-spacing: 0.02em;
   color: #ffffff;
+}
+.employee-container{
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.emloyee-searchbar{
+  width: 352px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  position: relative;
+}
+.search-icons{
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-30%);
+}
+.emloyee-searchbar input{
+  padding-left: 50px;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  border: 0px;
+  background-color: #fff;
+  box-shadow: 0px 0px 8px rgba(37, 25, 74, 0.15) ;
+}
+.emloyee-searchbar input::placeholder{
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.empoyees-Add-Icon{
+  margin-left:  auto;
+  margin-right: 30px;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
 }

@@ -119,6 +119,51 @@ const Workforce = () => {
       churn9: "30%",
       distance: "10km",
     },
+    {
+      key: "10",
+      employee: "Mikal Jackson",
+      position: "supervisor",
+      churn1: "10%",
+      churn3: "210%",
+      churn9: "30%",
+      distance: "10km",
+    },
+    {
+      key: "11",
+      employee: "Mikal Jackson",
+      position: "supervisor",
+      churn1: "10%",
+      churn3: "210%",
+      churn9: "30%",
+      distance: "10km",
+    },
+    {
+      key: "12",
+      employee: "Mikal Jackson",
+      position: "supervisor",
+      churn1: "10%",
+      churn3: "210%",
+      churn9: "30%",
+      distance: "10km",
+    },
+    {
+      key: "13",
+      employee: "Mikal Jackson",
+      position: "supervisor",
+      churn1: "10%",
+      churn3: "210%",
+      churn9: "30%",
+      distance: "10km",
+    },
+    {
+      key: "14",
+      employee: "Mikal Jackson",
+      position: "supervisor",
+      churn1: "10%",
+      churn3: "210%",
+      churn9: "30%",
+      distance: "10km",
+    },
   ];
 
   const onChange = (pagination, filters, sorter, extra) => {
@@ -127,49 +172,49 @@ const Workforce = () => {
 
   const data = [
     {
-      year: "2013",
+      year: "2020",
       value: 10,
       category: "Current Pattern",
     },
 
     {
-      year: "2013",
+      year: "2020",
       value: 30,
       category: "Clerk",
     },
 
     {
-      year: "2014",
+      year: "2021",
       value: 15,
       category: "Current Pattern",
     },
 
     {
-      year: "2014",
+      year: "2021",
       value: 15,
       category: "Clerk",
     },
 
     {
-      year: "2015",
+      year: "2022",
       value: 14,
       category: "Current Pattern",
     },
 
     {
-      year: "2015",
+      year: "2022",
       value: 12,
       category: "Clerk",
     },
 
     {
-      year: "2016",
+      year: "2023",
       value: 50,
       category: "Current Pattern",
     },
 
     {
-      year: "2016",
+      year: "2023",
       value: 30,
       category: "Clerk",
     },
@@ -195,7 +240,7 @@ const Workforce = () => {
   return (
     <section className="workforce">
       <CustomCard>
-        <section className="row">
+        <section className="row workforce-table">
           <Card>
             <Table
               className="table"
@@ -203,14 +248,18 @@ const Workforce = () => {
               dataSource={tableData}
               align="center"
               onChange={onChange}
+              pagination={false} 
             />
           </Card>
 
-          <Card>
-            <CustomGroupColumn />
-          </Card>
+          <section className="emplyee-graph">
+            <section className="top-graph-heading">Employee’s turnover </section>
+          <CustomGroupColumn />
+          </section>
+           
+
         </section>
-        <Card>
+        
           <section className="employees-turnover">
             <section className="employees-turnover_left">
               <section className="employees-turnover_left-top">
@@ -233,7 +282,7 @@ const Workforce = () => {
                   <section className="current-position">
                     <section className="grey line"></section>
                     <section className="current-position_name">
-                      Current Position
+                      Last year
                     </section>
                   </section>
                 </section>
@@ -246,9 +295,10 @@ const Workforce = () => {
             <section className="employees-turnover_right">
               <WorkflowTag title="Employee Terminated" subtitle="19" />
               <WorkflowTag title="New Hires" subtitle="42" />
+              <WorkflowTag title="" subtitle="" />
+              <WorkflowTag title="" subtitle="" />
             </section>
           </section>
-        </Card>
       </CustomCard>
     </section>
   );

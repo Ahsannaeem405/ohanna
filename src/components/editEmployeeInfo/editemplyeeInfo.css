@@ -1,0 +1,89 @@
+.edit-employee-info{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.edit-employeeIinfo-card{
+    height: 600px;
+    width: 635px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+.edit-employee-form{
+    width: 400px;
+    height: 100%;
+    margin: auto;
+}
+.edit-employee-form h2{
+    font-family: 'Montserrat';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin: 32px 0px;
+}
+.edit-employee-form label{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #000000CC;
+    padding: 10px 0px;
+}
+.edit-employee-form form{
+    display: flex;
+    flex-direction: column;
+}
+.edit-employee-form input{
+    border-radius: 5px;
+    background-color: #F8F5FF;
+    height: 30px;
+    width: 100%;
+    border: transparent !important;
+}
+.edit-employee-form select{
+    border: none;
+    background-color: #F8F5FF;
+    height: 30px;
+    width: 100%;
+    color:#00000080;
+    padding: 0px 20px;
+}
+.info-employee-btns{
+    display: flex;
+    gap: 25px;
+    justify-content: end;
+    margin-top: 30px;
+}
+.info-employee-btns button{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFFCC;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    text-align: center;
+
+}
+.info-employee-btns .save-info{
+    background-color: #E75757;
+}
+.info-employee-btns .remove-edit-box{
+    background-color: #004C84;
+}

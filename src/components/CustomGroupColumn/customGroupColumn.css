@@ -1,0 +1,16 @@
+.customgrapcolumn{
+    display: flex;
+}
+.customgraphcolumn-heading{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(-180deg);
+    margin: 120px 20px;
+    font-family:'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+
+}
